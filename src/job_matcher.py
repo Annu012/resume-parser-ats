@@ -1,57 +1,54 @@
-from typing import List
+"""Advanced Job Matching with Similarity"""
 
-class SimpleJobMatcher:
-    """Match resumes with job descriptions"""
+from typing import List, Dict
+
+class AdvancedJobMatcher:
+    def __init__(self, jobs_data: List[Dict] = None):
+        self.jobs = jobs_data or []
     
-    def __init__(self, jobs_csv: str = None):
-        self.jobs = []
-        if jobs_csv:
-            import pandas as pd
-            self.jobs = pd.read_csv(jobs_csv).to_dict('records')
-    
-    def extract_keywords(self, text: str) -> set:
-        """Extract keywords from text"""
-        # Simple tokenization
+    def _extract_keywords(self, text: str) -> set:
+        stop_words = {'the', 'a', 'and', 'or', 'in', 'on', 'at', 'to', 'for'}
         words = text.lower().split()
-        # Filter short words and common words
-        stop_words = {'the', 'a', 'and', 'or', 'is', 'in', 'at', 'to', 'for'}
-        return {w for w in words if len(w) > 3 and w not in stop_words}
+        return {w for w in words if len(w) > 3 and w not in stop_words and w.isalpha()}
     
-    def match_resume_to_jobs(self, resume_text: str, top_k: int = 5) -> List[dict]:
-        """Find top K matching jobs"""
-        resume_keywords = self.extract_keywords(resume_text)
+    def match_resume_to_jobs(self, resume_text: str, resume_skills: List[str], top_k: int = 5) -> List[Dict]:
+        resume_keywords = self._extract_keywords(resume_text)
+        resume_skills = set(s.lower() for s in resume_skills)
         
         matches = []
-        for job in self.jobs:
-            job_keywords = self.extract_keywords(job['description'])
+        for job_id, job in enumerate(self.jobs):
+            job_keywords = self._extract_keywords(job.get("description", ""))
+            job_skills = set(s.lower() for s in job.get("required_skills", []))
             
-            # Calculate overlap
-            overlap = len(resume_keywords & job_keywords)
-            total = len(resume_keywords | job_keywords)
+            keyword_overlap = len(resume_keywords & job_keywords)
+            max_keywords = max(len(resume_keywords), len(job_keywords))
+            keyword_score = keyword_overlap / (max_keywords + 1e-6)
             
-            similarity = overlap / (total + 1e-6) if total > 0 else 0
+            skill_overlap = len(resume_skills & job_skills)
+            max_skills = max(len(resume_skills), len(job_skills))
+            skill_score = skill_overlap / (max_skills + 1e-6) if max_skills > 0 else 0
+            
+            final_score = (0.7 * skill_score) + (0.3 * keyword_score)
             
             matches.append({
-                'title': job['title'],
-                'company': job.get('company', 'Unknown'),
-                'match_score': similarity
+                "job_id": job_id,
+                "title": job.get("title"),
+                "company": job.get("company"),
+                "match_score": final_score
             })
         
-        # Return top K
-        return sorted(matches, key=lambda x: x['match_score'], reverse=True)[:top_k]
+        matches.sort(key=lambda x: x["match_score"], reverse=True)
+        return matches[:top_k]
 
-# Test with sample jobs
-test_jobs = [
-    {'title': 'Python Developer', 'company': 'TechCorp', 'description': 'We need Python JavaScript React AWS expert'},
-    {'title': 'Data Scientist', 'company': 'DataInc', 'description': 'Machine Learning Python TensorFlow scikit-learn'},
-    {'title': 'DevOps Engineer', 'company': 'CloudSys', 'description': 'Docker Kubernetes AWS CI/CD pipelines'},
-]
-
-matcher = SimpleJobMatcher()
-matcher.jobs = test_jobs
-
-test_resume = "Python AWS Docker Kubernetes JavaScript expert"
-matches = matcher.match_resume_to_jobs(test_resume, top_k=3)
-
-for m in matches:
-    print(f"{m['title']} ({m['company']}): {m['match_score']:.2%}")
+# Test
+if __name__ == "__main__":
+    sample_jobs = [
+        {"title": "Python Dev", "company": "TechCorp", "description": "Python AWS Docker", "required_skills": ["Python", "AWS"]},
+        {"title": "Data Scientist", "company": "DataInc", "description": "Python Machine Learning", "required_skills": ["Python", "ML"]}
+    ]
+    
+    matcher = AdvancedJobMatcher(sample_jobs)
+    matches = matcher.match_resume_to_jobs("Python developer", ["Python", "AWS"])
+    
+    for match in matches:
+        print(f"{match['title']}: {match['match_score']:.2%}")
