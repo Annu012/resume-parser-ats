@@ -1,10 +1,88 @@
 [
   {
     "file": "accountant_15906625.pdf",
-    "extraction_time": 2.7116174697875977,
-    "hybrid_fields": {},
+    "extraction_time": 4.231367826461792,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "City of Alexandria",
+            "title": "Accountant",
+            "duration": "2013-Current",
+            "responsibilities": [
+              "Help prepare Financial Statements and Bank Reconciliations",
+              "Responsible for Accounts Payable & Fixed Assets",
+              "Perform accounts payable functions for governmental expenses",
+              "Manage vendor accounts and prepare 1099s for contract labor"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "",
+            "title": "Accountant",
+            "duration": "2009-2013",
+            "responsibilities": [
+              "Preparation and Analysis of Hospital Financial Statements",
+              "Investigate and resolve discrepancies in financial statements",
+              "Compile general ledger entries on short time schedule with nearly 100% accuracy"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "",
+            "title": "Accountant",
+            "duration": "2006-2008",
+            "responsibilities": [
+              "Prepare & File tax returns for individual, partnership, corporate, and tax exempt clients",
+              "Prepare LLC & Corporate monthly payroll & Quarterly Reports"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "",
+            "title": "Accountant",
+            "duration": "2003-2004",
+            "responsibilities": [
+              "Prepare individual, partnership, corporate & fiduciary tax returns",
+              "Audit governmental, for-profit and not for profit entities"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Northwestern State University of Louisiana",
+            "degree": "Bachelor",
+            "field": "Accounting",
+            "year": "2002"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Advanced bookkeeping skills",
+          "Accounting and bookkeeping",
+          "Financial statement analysis",
+          "Tax return filing",
+          "GAAP understanding",
+          "Bank reconciliations and balancing",
+          "Microsoft Word, Excel, Access, PowerPoint, & Outlook",
+          "Asset Keeper Pro Software",
+          "QuickBooks Software",
+          "Fixed Asset Solutions Software"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -12,10 +90,116 @@
   },
   {
     "file": "advocate_14445309.pdf",
-    "extraction_time": 0.032713890075683594,
-    "hybrid_fields": {},
+    "extraction_time": 1.7123620510101318,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Advocate",
+            "duration": "01/2011-01/2013",
+            "responsibilities": [
+              "Represented the needs of military families with policy makers and national organizations regarding legislation and programs for military special needs dependent children",
+              "Assisted families with navigating military health care insurance",
+              "Strategized with parents concerning individual education plans, 504 documents and educational behavioral plans",
+              "Led the first Military Family Leadership Institute training on Fort Meade and taught parent seminars on effective communication and advocacy",
+              "Trained professionals statewide concerning military culture and customs"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "U.S. Department of State",
+            "title": "United States Foreign Service Officer",
+            "duration": "01/2003-01/2005",
+            "responsibilities": [
+              "Studied German language and culture",
+              "Studied Europe and German/American Relations and American/ EU relations",
+              "Presented in depth study of German Contemporary Issues",
+              "Learned European history and culture to include Western Europe, Eastern Europe and the Balkans"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "U.S. Department of State",
+            "title": "Foreign Affairs Officer",
+            "duration": "",
+            "responsibilities": [
+              "Monitored religious freedom in Africa",
+              "Edited and added to the Annual Congressional Religious Freedom Report concerning religious intolerance in Western and Sub-Saharan Africa",
+              "Met with International Non-Governmental Organizations regarding religious freedom and atrocities against religious minorities",
+              "Coordinated with U.S. embassies to investigate religious persecution in Africa"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "U.S. Department of State",
+            "title": "Staff Assistant",
+            "duration": "",
+            "responsibilities": [
+              "Worked directly with the Secretary of State's Executive Staff regarding documents from the Political/Military Bureau",
+              "Reported directly for the Office of the Assistant Secretary",
+              "Provided technical guidance and deadlines to a bureau of ten office directors and 300 people",
+              "Set bureau priorities and was project manager for projects tasked to the bureau"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Exceptional Family Member Services",
+            "title": "Volunteer Public Advocate/Attorney",
+            "duration": "01/1997-01/2002",
+            "responsibilities": [
+              "Provided legal representation to families with special needs children regarding education services",
+              "Negotiated Individual Education Plans and 504 documents",
+              "Interpreted and applied federal statutory requirements and administrative regulations for clients before school administrative hearings"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Georgia State University",
+            "degree": "Jurist Doctor",
+            "field": "Law",
+            "year": ""
+          },
+          {
+            "institution": "Johannes Kepler University, School of Law",
+            "degree": "",
+            "field": "International Arbitration",
+            "year": ""
+          },
+          {
+            "institution": "Evangel University",
+            "degree": "Bachelor of Arts",
+            "field": "Government and Communications",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Government Relations",
+          "Special Education Law",
+          "Health Law",
+          "Statutory Procedure",
+          "Multi-task management",
+          "Training",
+          "Liaison",
+          "Federal Government",
+          "Public Policy"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -23,7 +207,7 @@
   },
   {
     "file": "agriculture_54246169.pdf",
-    "extraction_time": 0.03194284439086914,
+    "extraction_time": 1.247666835784912,
     "hybrid_fields": {
       "name": {
         "value": "Computer Ce",
@@ -40,10 +224,102 @@
   },
   {
     "file": "apparel_24533931.pdf",
-    "extraction_time": 0.020705461502075195,
-    "hybrid_fields": {},
+    "extraction_time": 7.20409083366394,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Apparel Associate",
+            "duration": "Aug 2017 to Current",
+            "responsibilities": [
+              "Stocking and Zoning apparel and housewares merchandise"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Recruiting Assistant",
+            "duration": "Oct 2016 to May 2016",
+            "responsibilities": [
+              "Sealing/Mailing off letters to football recruits",
+              "Making prints or copies of Letters and/or paperwork",
+              "Signing recruits and families in for game day"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Cashier/Stocker",
+            "duration": "Dec 2015 to Sep 2017",
+            "responsibilities": [
+              "Assisting customers in finding what they need",
+              "recovering sales floor and keeping the store clean and organize so the shoppers can have a better and easier shopping experience",
+              "Make customer purchases and/or returns"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Cashier/Sales Associate",
+            "duration": "May 2014 to Aug 2015",
+            "responsibilities": [
+              "Assisting customers in finding what they need",
+              "recovering sales floor and keeping the store clean and organize so the shoppers can have a better and easier shopping experience",
+              "Make customer purchases and/or returns"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "South Louisiana Community College",
+            "degree": "",
+            "field": "Business Adminstration",
+            "year": "2018"
+          },
+          {
+            "institution": "University of Louisiana-Lafayette",
+            "degree": "",
+            "field": "Business Administration",
+            "year": "2014"
+          },
+          {
+            "institution": "Salmen High School",
+            "degree": "",
+            "field": "",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Adaptability",
+          "Strong work ethic",
+          "Time management",
+          "Self-confidence",
+          "Handling pressure",
+          "Creativity",
+          "Communication",
+          "Team work",
+          "Motivation",
+          "Cash register",
+          "Typing",
+          "Basic computer skills",
+          "Customer Assistance"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 36.25,
     "ats_max_possible": 40,
     "success": true,
@@ -51,16 +327,108 @@
   },
   {
     "file": "arts_31273413.pdf",
-    "extraction_time": 0.05658245086669922,
+    "extraction_time": 2.6999425888061523,
     "hybrid_fields": {
       "name": {
         "value": "Summary Creative",
         "confidence": 0.85,
         "source": "ner"
+      },
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Arts Educator",
+            "duration": "03/2005 to Current",
+            "responsibilities": [
+              "Supported students in developing strategies for individual needs and classroom group dynamics.",
+              "Communicated effectively with educators from various grade levels.",
+              "Wrote daily and weekly lesson plans."
+            ],
+            "achievements": [
+              "Served as the advisor for the Student Club for several years."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Visual Arts Instructor",
+            "duration": "08/2004 to 06/2005",
+            "responsibilities": [
+              "Develop good rapport with students.",
+              "Effectively communicate information and ideas to staff, parents and students."
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Owner/Artist",
+            "duration": "10/1990 to 07/2005",
+            "responsibilities": [
+              "Supervise all aspects of the business.",
+              "Developed and produced a fused glass product line."
+            ],
+            "achievements": [
+              "Developed and produced a fused glass product line still carried in galleries and gift shops."
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "NovaSoutheastern University",
+            "degree": "Master of Science",
+            "field": "Education",
+            "year": ""
+          },
+          {
+            "institution": "Florida Atlantic University",
+            "degree": "B.F.A",
+            "field": "",
+            "year": ""
+          },
+          {
+            "institution": "University of Nebraska Omaha",
+            "degree": "Bachelor of Science",
+            "field": "Education",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Excellent communication",
+          "interpersonal",
+          "effective leadership",
+          "enthusiastic people person",
+          "advanced problem-solving",
+          "great organizational skills",
+          "acrylics",
+          "watercolors",
+          "brushes",
+          "graphite",
+          "colored pencil",
+          "oil pastel",
+          "cartooning",
+          "metal repousse'",
+          "weaving",
+          "paper mache'",
+          "sculpture",
+          "wire work",
+          "jewelry making",
+          "fused glass",
+          "ceramics"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
       }
     },
     "ner_field_count": 1,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -68,16 +436,136 @@
   },
   {
     "file": "automobile_11797122.pdf",
-    "extraction_time": 0.03506112098693848,
+    "extraction_time": 16.666792392730713,
     "hybrid_fields": {
       "name": {
         "value": "Summary Dedicated",
         "confidence": 0.85,
         "source": "ner"
+      },
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Automobile Transporter",
+            "duration": "05/2014 - Current",
+            "responsibilities": [
+              "Conducted daily DOT pre-trip inspections according to a set checklist",
+              "Hooked and unhooked trailers from the tractor",
+              "Coordinated daily delivery schedules based on customer schedules, peak delivery times and alternate routes",
+              "Perform emergency repairs including service hydraulic system",
+              "Maintain accurate records such as vehicle logs, records of cargo and billing statements in accordance with regulations"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Driver/Car Hauler",
+            "duration": "09/2009 - 05/2014",
+            "responsibilities": [
+              "Coordinated daily delivery schedules based on customer schedules, peak delivery times and alternate routes",
+              "Conducted daily DOT pre-trip inspections according to a set checklist",
+              "Maintained records required for compliance with state and federal regulations",
+              "Interacted with customers and vendors in a friendly and timely manner",
+              "Transported freight from origin to destination in a safe and timely manner"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Independent Contractor",
+            "duration": "02/2006 - 09/2009",
+            "responsibilities": [
+              "Facilitated successful internal and external audits through sound and thorough documentation",
+              "Composed effective accounting reports summarizing accounts payable data",
+              "Posted receipts to appropriate general ledger accounts",
+              "Reconciled discrepancies between accounts receivable general ledger account and accounts receivable trial balance account"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Driver/Car Hauler",
+            "duration": "10/2004 - 02/2006",
+            "responsibilities": [
+              "Transport automobiles from manufacturing plant to the dealership",
+              "Worker directly with training, departments, co-signees, and management to achieve on prompt deliveries new and pre-owned vehicles",
+              "Perform emergency repairs including service hydraulic system",
+              "Maintain accurate records such as vehicle logs, records of cargo and billing statements in accordance with regulations"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Driver/Car Hauler",
+            "duration": "08/2003 - 10/2004",
+            "responsibilities": [
+              "Coordinated daily delivery schedules based on customer schedules, peak delivery times and alternate routes",
+              "Obtained and maintained proper delivery authorization and pickup documentation",
+              "Conducted daily DOT pre-trip inspections according to a set checklist",
+              "Loaded and unloaded trailers with mechanical freight handling equipment"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Driver",
+            "duration": "09/2000 - 05/2003",
+            "responsibilities": [
+              "Safely loaded and unloaded deliveries according to size of load and content description",
+              "Transported deliveries locally and over the road",
+              "Managed discrepancy documentation for incoming shipments",
+              "Submitted all delivery documentation in a timely manner"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Aviation Machinist Mate",
+            "duration": "04/1992 - 09/2000",
+            "responsibilities": [
+              "Supervised the creation and validation of anti-terrorism plans on all ships",
+              "Developed and led training programs in preparation for combat",
+              "Operated and maintained communications equipment",
+              "Documented and processed classified materials"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Road Master Truck driving School",
+            "degree": "",
+            "field": "",
+            "year": "2000"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Quality control",
+          "OSHA regulatory compliance",
+          "Dependable independent worker",
+          "Clean D.O.T.",
+          "Good at following instructions",
+          "Solid communication skills",
+          "Strong organizational skills",
+          "Strong work ethic",
+          "Team player",
+          "Timely project completion"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
       }
     },
     "ner_field_count": 1,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -85,16 +573,118 @@
   },
   {
     "file": "aviation_69458502.pdf",
-    "extraction_time": 0.03353619575500488,
+    "extraction_time": 3.479775905609131,
     "hybrid_fields": {
+      "name": {
+        "value": "John McIntosh",
+        "confidence": 0.9,
+        "source": "llm"
+      },
       "phone": {
         "value": "+1 7526269604",
+        "confidence": 0.9,
+        "source": "agreement"
+      },
+      "experience": {
+        "value": [
+          {
+            "company": "City Aviation",
+            "title": "Aviation Engineer",
+            "duration": "01/2015 to Current",
+            "responsibilities": [
+              "Established and helped in the production line of the Auxiliary Power Unit overhaul facility",
+              "Focused on the following APU units: GTCP85-180-L-C, GTC85-56-70A-71-72, and T-62T-40-1"
+            ],
+            "achievements": [
+              "Developed and optimized tooling, manufacturing, and ground support equipment reviews for open issues or improvements",
+              "Designed tooling equipment, electrical circuitry, and hydraulic systems using CATIA V5"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Intern",
+            "duration": "01/2013",
+            "responsibilities": [
+              "Provided technical support in part design using CATIA"
+            ],
+            "achievements": [
+              "Participated in the improvements of engineering software",
+              "Designed several components for fuel controls, starters, coordinators and fuel nozzles for different turboprop engines"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Aerospace Engineer",
+            "duration": "01/2014 to 01/2015",
+            "responsibilities": [
+              "Member of the AIAA and the front line team that developed a novel cooling design system for turbine blades"
+            ],
+            "achievements": [
+              "Contributed with the optimization process of turbine blades and aided them to achieve higher temperature levels and efficiency",
+              "Research paper was written and patented"
+            ]
+          }
+        ],
         "confidence": 0.85,
-        "source": "ner"
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "EMBRY-RIDDLE AERONAUTICAL UNIVERSITY",
+            "degree": "Bachelors of Science",
+            "field": "Aerospace Engineering",
+            "year": "2015"
+          },
+          {
+            "institution": "EMBRY-RIDDLE AERONAUTICAL UNIVERSITY",
+            "degree": "",
+            "field": "Applied Mathematics",
+            "year": "2014"
+          },
+          {
+            "institution": "UNIDAD EDUCATIVA SAN NICOLA",
+            "degree": "High School Degree",
+            "field": "",
+            "year": "2010"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "C",
+          "CAD",
+          "CATIA",
+          "CRM",
+          "data acquisition",
+          "English",
+          "experiment",
+          "French",
+          "inspection",
+          "instruction",
+          "interpretation",
+          "Maple",
+          "MATLAB",
+          "Nastran",
+          "novel",
+          "optimization",
+          "quality",
+          "receiving",
+          "research",
+          "scheme",
+          "Spanish",
+          "technical support",
+          "troubleshooting",
+          "written"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
       }
     },
     "ner_field_count": 1,
-    "llm_field_count": 0,
+    "llm_field_count": 5,
     "ats_score": 30.0,
     "ats_max_possible": 40,
     "success": true,
@@ -102,10 +692,114 @@
   },
   {
     "file": "banking_74552449.pdf",
-    "extraction_time": 0.03168940544128418,
-    "hybrid_fields": {},
+    "extraction_time": 5.272858619689941,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Banking",
+            "duration": "11/2016 - ",
+            "responsibilities": [
+              "Opened new customer accounts",
+              "Balanced daily cash deposits and bank vault inventory",
+              "Processed cash withdrawals"
+            ],
+            "achievements": [
+              "Delivered prompt, accurate and excellent customer service",
+              "Researched banking guidelines and statutory requirements to stay updated on new laws and applications"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Banking Employee",
+            "duration": "05/2014 - 08/2015",
+            "responsibilities": [
+              "Opened new customer accounts",
+              "Balanced daily cash deposits and bank vault inventory",
+              "Processed cash withdrawals"
+            ],
+            "achievements": [
+              "Delivered prompt, accurate and excellent customer service",
+              "Researched banking guidelines and statutory requirements to stay updated on new laws and applications"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Intern",
+            "duration": "06/2013 - 09/2013",
+            "responsibilities": [
+              "Managing and editing the company's online area",
+              "Developing and preparing accounting, statistics and Office subject papers"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Banking intern",
+            "duration": "06/2012 - 09/2012",
+            "responsibilities": [
+              "Opened new customer accounts",
+              "Balanced daily cash deposits and bank vault inventory",
+              "Processed cash withdrawals"
+            ],
+            "achievements": [
+              "Delivered prompt, accurate and excellent customer service",
+              "Researched banking guidelines and statutory requirements to stay updated on new laws and applications"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Universidad Carlos III de Madrid",
+            "degree": "Master of Science",
+            "field": "International Trade",
+            "year": "2014"
+          },
+          {
+            "institution": "Universidad P\u00fablica de Navarra",
+            "degree": "Bachelor of Science",
+            "field": "Business Administration and Direction",
+            "year": "2013"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Cash handling",
+          "Financial analysis",
+          "MS Excel",
+          "Analytical",
+          "Financial reporting",
+          "Loan operations",
+          "Managing multiple priorities",
+          "Identifying risks",
+          "Spanish speaking",
+          "MS Office",
+          "Team leadership",
+          "Excellent communication skills",
+          "Strong lead development skills",
+          "Business negotiation",
+          "Salesforce.com",
+          "TapScan",
+          "Bacon's Mediasource",
+          "Factiva",
+          "Photoshop",
+          "Illustrator",
+          "HTML"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 36.25,
     "ats_max_possible": 40,
     "success": true,
@@ -113,10 +807,114 @@
   },
   {
     "file": "bpo_79261033.pdf",
-    "extraction_time": 0.019906044006347656,
-    "hybrid_fields": {},
+    "extraction_time": 10.569975137710571,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "BPO",
+            "title": "Director of Operations",
+            "duration": "11/2013-04/2015",
+            "responsibilities": [
+              "Managed team of 200 professionals",
+              "Hiring, training, and performance management"
+            ],
+            "achievements": [
+              "Increased Client revenue from 2.2 Million to 3 Million on a monthly basis",
+              "Surpassed revenue goals in four consecutive quarters"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Director of Sales",
+            "duration": "05/2010-11/2013",
+            "responsibilities": [
+              "Hiring, training, and performance management",
+              "Played an instrumental role in the Direct Sales Strategy"
+            ],
+            "achievements": [
+              "Consistently ranked #1 site every month in 2010",
+              "Improved every KPI metric"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "General Manager Of Sales Operations",
+            "duration": "10/2005-05/2010",
+            "responsibilities": [
+              "Established a New Sales Team from the ground up",
+              "Led Supervisors and Managers on a daily basis"
+            ],
+            "achievements": [
+              "Sales team grew from 50 reps to 300 in the site",
+              "Led the Sales team on a day to day basis with high energy and employee engagement"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Sales Supervisor",
+            "duration": "11/2003-10/2005",
+            "responsibilities": [
+              "Led a team of over 14 OB Sales reps",
+              "Motivated, trained and developed, and held Sales reps accountable on a daily basis"
+            ],
+            "achievements": [
+              "Successfully promoted 5 Team members to a Supervisor role",
+              "Let the Outbound Sales department in Sales performance on a daily and weekly basis"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Bergen Community College",
+            "degree": "",
+            "field": "Business Management",
+            "year": "2001"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Business Management",
+          "conversion",
+          "Client",
+          "Customer Satisfaction",
+          "Customer Services",
+          "customer service experience",
+          "Direct Sales",
+          "direction",
+          "Executive Management",
+          "focus",
+          "forms",
+          "hiring",
+          "languages",
+          "Director",
+          "marketing",
+          "meetings",
+          "works",
+          "Enterprise",
+          "Network",
+          "performance management",
+          "Quality",
+          "real time",
+          "recruiting",
+          "Sales",
+          "Sales Analysis",
+          "Spanish",
+          "Strategy"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -124,10 +922,90 @@
   },
   {
     "file": "business_development_65708020.pdf",
-    "extraction_time": 0.028199195861816406,
-    "hybrid_fields": {},
+    "extraction_time": 15.509677410125732,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "SunnySide Supply",
+            "title": "Business Development",
+            "duration": "2014-Present",
+            "responsibilities": [
+              "Responsible for overall company branding and marketing at trade shows and industry organizations",
+              "Obtaining new customers and building current customer base to increase sales revenue across all product lines throughout the company",
+              "Manager of premium product line called Erect-A-Step, covering the Northeast as a service territory"
+            ],
+            "achievements": [
+              "Grown sales revenue 85% in a depressed oil and gas market",
+              "Personally responsible for 100% of Erect-A-Step sales and 40% of overall company sales",
+              "Handle the highest volume/revenue accounts in assigned territory"
+            ]
+          },
+          {
+            "company": "Davison",
+            "title": "Director of New Products",
+            "duration": "2013-2014",
+            "responsibilities": [
+              "Create strategies to develop and expand existing customer sales",
+              "Maximize operational efficiency by coaching staff on various customer service initiatives",
+              "Maintain friendly and professional customer interactions"
+            ],
+            "achievements": [
+              "Create strategies to develop and expand existing customer sales, which resulted in a 30% increase in monthly sales",
+              "Won award for Rookie Sales Director of the Year"
+            ]
+          },
+          {
+            "company": "Amore Limousines/Morgan Coach",
+            "title": "Director of Sales and Marketing/Business Development Manager",
+            "duration": "2006-2013",
+            "responsibilities": [
+              "Created sales and revenue-generating opportunities in new markets to improve the bottom line",
+              "Developed strategies to position the business to shape and capitalize on emerging customer and market needs",
+              "Identified and solved complex problems that impacted sales management and the direction of the business"
+            ],
+            "achievements": [
+              "Led sales team to grow revenue from $50,000 to $1.3 million in 6 years",
+              "Successfully expanded account base from 2 to more than 50 accounts"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Duquesne University",
+            "degree": "Bachelor of Science",
+            "field": "Marketing and Legal Studies in Business",
+            "year": "2006"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Relationship Building",
+          "Networking",
+          "Sales/Market Analysis",
+          "Strategic Planning",
+          "Closing Sales",
+          "Budget Development",
+          "Business Development",
+          "Account Management",
+          "Analytical Problem Solver",
+          "Profit Optimization",
+          "Cost Efficiency",
+          "Training and Development"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -135,10 +1013,81 @@
   },
   {
     "file": "chef_15180322.pdf",
-    "extraction_time": 0.024248838424682617,
-    "hybrid_fields": {},
+    "extraction_time": 11.291351795196533,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "CNA/GNA",
+            "duration": "January 2005 to January 2007",
+            "responsibilities": [
+              "Observed and documented patient status and reported patient complaints to the case manager.",
+              "Read and recorded temperature, pulse and respiration.",
+              "Massaged patients and applied preparations and treatments, such as liniment, alcohol rubs and heat-lamp stimulation."
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Chef",
+            "duration": "March 2007 to December 2008",
+            "responsibilities": [
+              "Extensive knowledge of all aspects of the food industry as well as the natural foods industry."
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Office Manager",
+            "duration": "February 1998 to December 2004",
+            "responsibilities": [
+              "Point of contact for all contacts",
+              "Sales for commercial grounds maintenance company",
+              "All office operations"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Private Chef",
+            "duration": "June 2011 to August 2014",
+            "responsibilities": [],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Baltimore International College",
+            "degree": "AA",
+            "field": "Culinary Arts",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "mobility assistance",
+          "charting expertise",
+          "medical procedures",
+          "grooming and bathing assistance",
+          "housekeeping",
+          "catheter change and preparation",
+          "problem solving",
+          "medical terminology"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 30.0,
     "ats_max_possible": 40,
     "success": true,
@@ -146,10 +1095,83 @@
   },
   {
     "file": "construction_99433371.pdf",
-    "extraction_time": 0.014569282531738281,
-    "hybrid_fields": {},
+    "extraction_time": 7.37486720085144,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Castle Inspection Service",
+            "title": "High Value Residential Insurance Appraiser",
+            "duration": "2006-Present",
+            "responsibilities": [
+              "Appraise high value homes in Oregon and California for a replacement cost."
+            ],
+            "achievements": []
+          },
+          {
+            "company": "",
+            "title": "Intern",
+            "duration": "2004",
+            "responsibilities": [
+              "Supporting interior design/project teams, researching materials, and organizing the materials resource library."
+            ],
+            "achievements": []
+          },
+          {
+            "company": "",
+            "title": "Accounts Payable Assistant",
+            "duration": "1999-2000",
+            "responsibilities": [
+              "Handling petty cash, data entry, payroll distribution, and other administrative duties."
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "University of Oregon",
+            "degree": "BFA",
+            "field": "Product Design",
+            "year": "Present"
+          },
+          {
+            "institution": "University of Oregon",
+            "degree": "Bachelor of Interior Architecture",
+            "field": "Business Administration",
+            "year": "2005"
+          },
+          {
+            "institution": "University of Washington",
+            "degree": "Undeclared",
+            "field": "",
+            "year": "1999"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Adobe Photoshop",
+          "AutoCAD",
+          "Microsoft Word",
+          "Excel",
+          "PowerPoint",
+          "Illustrator",
+          "Revit",
+          "Digital Illustration",
+          "Interior Design"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 31.25,
     "ats_max_possible": 40,
     "success": true,
@@ -157,10 +1179,125 @@
   },
   {
     "file": "consultant_27096471.pdf",
-    "extraction_time": 0.025354623794555664,
-    "hybrid_fields": {},
+    "extraction_time": 6.356689453125,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Consultant",
+            "duration": "01/2015 to Current",
+            "responsibilities": [
+              "Reviews federal and state laws to confirm and enforce company compliance.",
+              "Wrote ISO 9000-level HR instructions for employee in and out processing."
+            ],
+            "achievements": [
+              "Developed and implemented an innovative internal communications strategy to improve employee engagement through strategic messaging."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Compensation and Benefits Specialist",
+            "duration": "10/2013 to 12/2014",
+            "responsibilities": [
+              "Designed and introduced the organization's first formal workplace accommodation process and procedure."
+            ],
+            "achievements": [
+              "Implemented the organization's first results-based wellness incentive campaign-produced over 35% ROI within first year."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Commercial Relationship Manager",
+            "duration": "07/2010 to 10/2013",
+            "responsibilities": [
+              "Responsible for retention, in-group growth, and the sale of new products and services into existing accounts."
+            ],
+            "achievements": [
+              "Researched departmental systems to improve business process improvement resulting in $300k yearly saving."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Benefits Specialist",
+            "duration": "07/2006 to 10/2008",
+            "responsibilities": [
+              "Counseled employees and management on leave of absence policies and procedures."
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Webster University",
+            "degree": "Master of Arts",
+            "field": "Human Resource Development",
+            "year": ""
+          },
+          {
+            "institution": "Xavier University",
+            "degree": "Bachelor of Arts",
+            "field": "Mass Communication",
+            "year": ""
+          },
+          {
+            "institution": "University of Missouri Columbia",
+            "degree": "MBA",
+            "field": "Finance",
+            "year": "2017"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "ADA",
+          "Benefits",
+          "Budget",
+          "Business Process Improvement",
+          "Interpersonal Communication",
+          "Consulting",
+          "Client",
+          "Employee Relations",
+          "Filing",
+          "Focus",
+          "Human Resources",
+          "HR",
+          "Image",
+          "Interpretation",
+          "Team-Building",
+          "Legal Compliance",
+          "Director",
+          "Access",
+          "Works",
+          "Networking",
+          "Organizational Development",
+          "Payroll",
+          "Policies",
+          "Project Management",
+          "Reporting",
+          "Risk Management",
+          "Sales",
+          "Scanning",
+          "Seminars",
+          "Staffing",
+          "Strategy",
+          "Strategic Planning",
+          "Phone",
+          "Training Programs",
+          "Vendor Management"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -168,10 +1305,84 @@
   },
   {
     "file": "designer_37058472.pdf",
-    "extraction_time": 0.016094446182250977,
-    "hybrid_fields": {},
+    "extraction_time": 8.175342082977295,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Designer",
+            "duration": "03/2014 to 11/2015",
+            "responsibilities": [
+              "Design and built custom furniture",
+              "Create CAD drawings for approval",
+              "Create estimate of pricing"
+            ],
+            "achievements": [
+              "Completed key projects on time, on budget and with a high level of accuracy"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Senior Production Manager",
+            "duration": "02/2006 to 03/2014",
+            "responsibilities": [
+              "Management of Production team",
+              "Price quotations of all custom quotes"
+            ],
+            "achievements": [
+              "Developed, evaluated, and maintained the quality of our vendors and products"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Project Manager",
+            "duration": "06/2004 to 11/2005",
+            "responsibilities": [
+              "Space and furniture planning",
+              "Design capabilities"
+            ],
+            "achievements": [
+              "Monitored team progress and enforced deadlines"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Santa Monica College",
+            "degree": "Associate of Arts",
+            "field": "Interior and Furniture Design",
+            "year": ""
+          },
+          {
+            "institution": "Universidade Candido Mendes",
+            "degree": "Bachelor of Laws (LLB)",
+            "field": "Contract",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "AutoCad drafting",
+          "3D Rendering",
+          "Material Board",
+          "Communication skills",
+          "Conceptual design",
+          "Material organizational"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 35.0,
     "ats_max_possible": 40,
     "success": true,
@@ -179,10 +1390,91 @@
   },
   {
     "file": "digital_media_13837784.pdf",
-    "extraction_time": 0.02230095863342285,
-    "hybrid_fields": {},
+    "extraction_time": 6.1111814975738525,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Digital Media Buyer",
+            "duration": "03/2016 to Current",
+            "responsibilities": [
+              "Oversees and co-manages PPC campaigns",
+              "Creates, implements, and manages all organic social profiles and paid social campaigns"
+            ],
+            "achievements": [
+              "Successfully increased brand awareness on Instagram and increased follower growth by over 400%"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Digital Media Buyer",
+            "duration": "11/2014 to 03/2016",
+            "responsibilities": [
+              "Managed over 10 different education clients' paid social media and paid search accounts",
+              "Effectively budgeted and managed over $500,000 per month in client money"
+            ],
+            "achievements": [
+              "Consistently hit client lead goals and CPI goals each month with each client's given budget"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Sales Associate",
+            "duration": "06/2014 to 10/2015",
+            "responsibilities": [
+              "Created and managed social media accounts across multiple platforms",
+              "Helped increase brand awareness and advertised product promotions to current customers"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "University of Missouri",
+            "degree": "Bachelor of Arts",
+            "field": "Communication Business",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "account management",
+          "photo",
+          "budget",
+          "content",
+          "CPI",
+          "Creative Director",
+          "client",
+          "clients",
+          "Drupal",
+          "HTML",
+          "Internet Marketing",
+          "managing",
+          "marketing",
+          "MSOffice",
+          "Outlook",
+          "PowerPoint",
+          "Word",
+          "Page",
+          "seminars",
+          "strategy",
+          "websites",
+          "Content Writing"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 36.25,
     "ats_max_possible": 40,
     "success": true,
@@ -190,10 +1482,84 @@
   },
   {
     "file": "engineering_14206561.pdf",
-    "extraction_time": 0.022587299346923828,
-    "hybrid_fields": {},
+    "extraction_time": 6.444987058639526,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Engineering Technician",
+            "duration": "01/2014 to Current",
+            "responsibilities": [
+              "Analyze documentation to ensure production accuracy",
+              "Create and maintain production training certifications"
+            ],
+            "achievements": [
+              "Conduct weekly safety audits to reduce accidents",
+              "Manage weekly MRB meetings"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Consultant",
+            "duration": "12/2012",
+            "responsibilities": [
+              "Analyzed and determined factors affecting networking needs"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Engineering Technician",
+            "duration": "01/2011 to 12/2013",
+            "responsibilities": [
+              "Maintain documentation and records",
+              "Assist Manufacturing Engineering team"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Manufacturing Lead",
+            "duration": "07/2004 to 12/2010",
+            "responsibilities": [
+              "Analyzed production orders and schedules",
+              "Provided training and supervision"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "University of Phoenix",
+            "degree": "",
+            "field": "Business Administration",
+            "year": "2019"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "MS Excel",
+          "Microsoft Office",
+          "Outlook",
+          "PowerPoint",
+          "Oracle",
+          "network systems",
+          "database"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 40.0,
     "ats_max_possible": 40,
     "success": true,
@@ -201,10 +1567,76 @@
   },
   {
     "file": "finance_11877150.pdf",
-    "extraction_time": 0.02089667320251465,
-    "hybrid_fields": {},
+    "extraction_time": 5.054217338562012,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Finance",
+            "duration": "07/2013 to Current",
+            "responsibilities": [
+              "Proposed and achieved cost savings by reducing expenses on the company",
+              "Forecasted operating costs for scheduled projects by strategizing with other departments"
+            ],
+            "achievements": [
+              "Analyzed budgets, financial reports and projections for accurate reporting of financial standing"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Junior Auditor",
+            "duration": "02/2012 to 06/2012",
+            "responsibilities": [
+              "Analyzed and reviewed cost reports and communicated final results to clients",
+              "Reported internal control issues to management and supplied comprehensive recommendations to mitigate the associated risks"
+            ],
+            "achievements": [
+              "Gathered data for internal audits through interviews, financial research and downloads"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Kwik Kian Gie School of Business",
+            "degree": "S.E",
+            "field": "Accounting",
+            "year": "2013"
+          },
+          {
+            "institution": "Don Bosco 2 Senior High School",
+            "degree": "High School Diploma",
+            "field": "",
+            "year": "2008"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Time management",
+          "Customer relations",
+          "Self-motivated professional",
+          "Excellent communication skills",
+          "Strong interpersonal skills",
+          "Multilingual in English and Indonesian Language",
+          "Proficient in Ms. Office",
+          "Critical thinking",
+          "Attention to detail",
+          "Creative thinker",
+          "Excellent managerial techniques"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 36.25,
     "ats_max_possible": 40,
     "success": true,
@@ -212,16 +1644,100 @@
   },
   {
     "file": "fitness_17576030.pdf",
-    "extraction_time": 0.022182226181030273,
+    "extraction_time": 7.424088001251221,
     "hybrid_fields": {
       "name": {
         "value": "mem",
         "confidence": 0.85,
         "source": "ner"
+      },
+      "experience": {
+        "value": [
+          {
+            "company": "Fitness Consultant Company",
+            "title": "Fitness Consultant",
+            "duration": "09/2013-03/2014",
+            "responsibilities": [
+              "Conducted tours",
+              "Gave wellness advice",
+              "Outside marketing",
+              "Conducted calls to prospective members"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "DAEP/Special Education/Coach Company",
+            "title": "DAEP/Special Education/Coach",
+            "duration": "08/2012-05/2013",
+            "responsibilities": [
+              "Taught in DAEP",
+              "Worked in Special Education",
+              "Coached Football, Basketball, and conducted Strength and Conditioning programs"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "PE/Special Education/Coach Company",
+            "title": "PE/Special Education/Coach",
+            "duration": "08/2009-05/2012",
+            "responsibilities": [
+              "Taught PE classes",
+              "Worked with Special Educational settings",
+              "Coached Football, Basketball, Baseball, and Track & Field"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Sales Company",
+            "title": "Sales",
+            "duration": "07/2014-Current",
+            "responsibilities": [
+              "Helped grow the business",
+              "Maintained client relations"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Southwestern Oklahoma State University",
+            "degree": "",
+            "field": "Parks and Recreation Management",
+            "year": "2009"
+          },
+          {
+            "institution": "Blinn College",
+            "degree": "",
+            "field": "Criminal Justice",
+            "year": ""
+          },
+          {
+            "institution": "Texas A&M University-Commerce",
+            "degree": "",
+            "field": "Criminal Justice",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Marketing",
+          "Sales",
+          "Teaching",
+          "Coaching"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
       }
     },
     "ner_field_count": 1,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 36.25,
     "ats_max_possible": 40,
     "success": true,
@@ -229,16 +1745,112 @@
   },
   {
     "file": "healthcare_23617240.pdf",
-    "extraction_time": 0.02588820457458496,
+    "extraction_time": 12.739944219589233,
     "hybrid_fields": {
       "name": {
-        "value": "Profile Cynthia",
+        "value": "Cynthia Glidewell",
+        "confidence": 0.9,
+        "source": "llm",
+        "disagreement_alternative": "Profile Cynthia"
+      },
+      "experience": {
+        "value": [
+          {
+            "company": "HELP Pain Medical Network",
+            "title": "Vice President of Operations",
+            "duration": "",
+            "responsibilities": [
+              "Developed and implemented Remote Care Services Program",
+              "Coordinated with multiple carriers and providers"
+            ],
+            "achievements": [
+              "Improved patient outcomes",
+              "Reduced pain and dependence on medication"
+            ]
+          },
+          {
+            "company": "Cap Gemini Ernst & Young",
+            "title": "Instructor",
+            "duration": "",
+            "responsibilities": [
+              "Taught global regulatory compliance",
+              "Developed training programs"
+            ],
+            "achievements": []
+          }
+        ],
         "confidence": 0.85,
-        "source": "ner"
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Western Governors University",
+            "degree": "BS",
+            "field": "Nursing",
+            "year": ""
+          },
+          {
+            "institution": "John Brown University",
+            "degree": "BS",
+            "field": "Nursing",
+            "year": ""
+          },
+          {
+            "institution": "University of Arkansas",
+            "degree": "Associates",
+            "field": "Nursing",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "ADA",
+          "billing",
+          "budgeting",
+          "business process",
+          "call center",
+          "consultation",
+          "contracts",
+          "client management",
+          "customer satisfaction",
+          "data collection",
+          "delivery",
+          "GCP",
+          "GLP",
+          "GMP",
+          "instructor",
+          "insurance",
+          "lecturer",
+          "legal",
+          "litigation",
+          "managing",
+          "marketing strategies",
+          "network",
+          "new product development",
+          "presentations",
+          "procurement",
+          "quality",
+          "reporting",
+          "research",
+          "risk management",
+          "safety",
+          "sales",
+          "strategy",
+          "strategic planning",
+          "system design",
+          "teaching",
+          "validation"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
       }
     },
     "ner_field_count": 1,
-    "llm_field_count": 0,
+    "llm_field_count": 4,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -246,10 +1858,137 @@
   },
   {
     "file": "hr_16852973.pdf",
-    "extraction_time": 0.02322864532470703,
-    "hybrid_fields": {},
+    "extraction_time": 7.749677896499634,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "HR Administrator/Marketing Associate",
+            "duration": "2013-Present",
+            "responsibilities": [
+              "Helps to develop policies",
+              "Directs and coordinates activities",
+              "Prepares employee separation notices"
+            ],
+            "achievements": [
+              "Developed and implemented marketing strategies"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Advanced Medical Claims Analyst",
+            "duration": "2012-2013",
+            "responsibilities": [
+              "Reviewed medical bills",
+              "Trained to interpret codes"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Assistant General Manager",
+            "duration": "2010",
+            "responsibilities": [
+              "Budgeting and financial management",
+              "Accounting"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Executive Support / Marketing Assistant",
+            "duration": "2007-2010",
+            "responsibilities": [
+              "Provided assistance to department heads"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Reservation & Front Office Manager",
+            "duration": "2004-2007",
+            "responsibilities": [],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Owner/Partner",
+            "duration": "2001-2004",
+            "responsibilities": [],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Price Integrity Coordinator",
+            "duration": "1999-2001",
+            "responsibilities": [],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Jefferson College",
+            "degree": "",
+            "field": "Business Administration",
+            "year": "1999"
+          },
+          {
+            "institution": "Sainte Genevieve Senior High",
+            "degree": "High School Diploma",
+            "field": "College Prep. studies",
+            "year": "1998"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Accounting",
+          "Advertising",
+          "Analytical skills",
+          "Benefits",
+          "Billing",
+          "Budgeting",
+          "Customer Service",
+          "Data analysis",
+          "Delivery",
+          "Documentation",
+          "Employee relations",
+          "Financial management",
+          "Government relations",
+          "Human Resources",
+          "Insurance",
+          "Labor relations",
+          "Layout",
+          "Marketing",
+          "Medical billing",
+          "Medical terminology",
+          "Office",
+          "Organizational",
+          "Payroll",
+          "Performance reviews",
+          "Personnel",
+          "Policies",
+          "Posters",
+          "Presentations",
+          "Public relations",
+          "Purchasing",
+          "Reporting",
+          "Statistics",
+          "Website"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -257,16 +1996,95 @@
   },
   {
     "file": "information_technology_36856210.pdf",
-    "extraction_time": 0.027936935424804688,
+    "extraction_time": 6.5529115200042725,
     "hybrid_fields": {
       "name": {
         "value": "Excels",
         "confidence": 0.85,
         "source": "ner"
+      },
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Information Technology",
+            "duration": "02/2011 to Current",
+            "responsibilities": [
+              "Manage accreditation efforts",
+              "Coordinate with ONI Enterprise"
+            ],
+            "achievements": [
+              "Successful Authorization To Operate decisions",
+              "Vulnerability management implementation"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Systems Engineer",
+            "duration": "02/2006 to 02/2011",
+            "responsibilities": [
+              "Initiate processing strategies",
+              "Manage storage requirements"
+            ],
+            "achievements": [
+              "Saved over a million dollars in purchasing and maintenance costs",
+              "Improved big data analytical processing"
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Senior Systems Analyst",
+            "duration": "02/1999 to 02/2006",
+            "responsibilities": [
+              "Improve corporate and client communications",
+              "Detect network software/hardware weaknesses"
+            ],
+            "achievements": [
+              "Designed, built and deployed 3 Enterprise network solutions",
+              "Increased system security"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "Florence Darlington Technical School",
+            "degree": "Associate of Science",
+            "field": "Electronic Engineering",
+            "year": "1980"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Active Directory",
+          "Hardware Engineering",
+          "Information Technology",
+          "Red Hat Enterprise Linux",
+          "MS Windows Servers",
+          "MS Windows Desktop",
+          "Network Design & Troubleshooting",
+          "Architectural Diagrams",
+          "Accreditation Boundarys",
+          "Risk Management",
+          "Enterprise Strategies",
+          "Vendor Relations",
+          "Desktop Publishing",
+          "Photoshop",
+          "Illustrator",
+          "HTML"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
       }
     },
     "ner_field_count": 1,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -274,10 +2092,86 @@
   },
   {
     "file": "public_relations_31392754.pdf",
-    "extraction_time": 0.02230668067932129,
-    "hybrid_fields": {},
+    "extraction_time": 8.497111082077026,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Public Relations Liaison/Sales Representative",
+            "duration": "08/2014-04/2015",
+            "responsibilities": [
+              "communications between medical professionals and health care organizations and their stakeholders",
+              "Provide information to the public and build relationships with medical groups and government agencies"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Area Manager/Community Relations Coordinator",
+            "duration": "09/2009-09/2014",
+            "responsibilities": [
+              "Managing monthly goals through the community support of blood drives",
+              "Foster good relationships with area groups as the community liaison"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Manager of Human Resources | Office Manager",
+            "duration": "01/2003-01/2009",
+            "responsibilities": [
+              "Effectively managed Avisena's Human Resource operation",
+              "Actively maintained a pipeline of qualified candidates through an aggressive recruitment strategy"
+            ],
+            "achievements": []
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "University of Miami",
+            "degree": "Associate of Arts",
+            "field": "Human Resources",
+            "year": "2007"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Employee Management and Leadership",
+          "Public Relations",
+          "Event Coordination and Management",
+          "Sales and Marketing",
+          "Account Management",
+          "Business Relations",
+          "Office Management",
+          "Database Management",
+          "Public Speaking",
+          "Human Resources Professional",
+          "Customer Service",
+          "Staffing management ability",
+          "Motivation techniques specialist",
+          "Conflict resolution",
+          "Government relations knowledge",
+          "Sound decision making",
+          "Staff training and development",
+          "Fundraising and major donor development",
+          "Relationship and team building",
+          "Critical thinking proficiency",
+          "Cultural awareness and sensitivity"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 30.0,
     "ats_max_possible": 40,
     "success": true,
@@ -285,10 +2179,122 @@
   },
   {
     "file": "sales_87118391.pdf",
-    "extraction_time": 0.022961139678955078,
-    "hybrid_fields": {},
+    "extraction_time": 8.76585578918457,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Sales",
+            "duration": "September 2008",
+            "responsibilities": [
+              "Responsible for implementing all business-building and relationship-building expectations with uniquely assigned accounts and customers.",
+              "Recommended and helped customers select merchandise based on their needs.",
+              "Answered customers' questions regarding products, prices and availability."
+            ],
+            "achievements": [
+              "Consistently met and exceeded department expectations for productivity and accuracy levels."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "City Manager",
+            "duration": "April 2008 to September 2008",
+            "responsibilities": [
+              "Successfully managed the activities of 12 team members.",
+              "Developed, implemented and monitored programs to maximize customer satisfaction.",
+              "Interviewed, hired and trained new quality customer service representatives."
+            ],
+            "achievements": [
+              "Addressed negative customer feedback immediately.",
+              "Resolved customer questions, issues and complaints."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Senior Corporate Travel Consultant",
+            "duration": "September 2017 to April 2008",
+            "responsibilities": [
+              "Planned travel arrangements for 200 executives and staff.",
+              "Received and screened a high volume of internal and external communications, including email and mail.",
+              "Collected customer feedback and made process changes to exceed customer satisfaction goals."
+            ],
+            "achievements": [
+              "Built customer loyalty by placing follow-up calls for customers who reported product issues."
+            ]
+          },
+          {
+            "company": "Company Name",
+            "title": "Passenger Service Agent",
+            "duration": "January 1995 to September 2007",
+            "responsibilities": [
+              "Communicated with customers daily",
+              "Committed to the assistance and support of others while maintaining a cheerful and helpful attitude",
+              "Trained in and maintained excellent interpersonal and communication skills that complement proven creative problem solving capabilities"
+            ],
+            "achievements": [
+              "Provided superior customer service and work quality while demonstrating attention to detail, flexibility and innovation in resolving problems."
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "West Virginia State University",
+            "degree": "",
+            "field": "Communications",
+            "year": "2002"
+          },
+          {
+            "institution": "United States Air Force Air National Guard",
+            "degree": "",
+            "field": "Communications",
+            "year": ""
+          },
+          {
+            "institution": "George Washington High School",
+            "degree": "",
+            "field": "",
+            "year": ""
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Air Force",
+          "Attention to detail",
+          "Interpersonal and communication",
+          "Communications skills",
+          "Oral Communication",
+          "Creative problem solving",
+          "Customer Relations",
+          "Customer service",
+          "Government",
+          "Innovation",
+          "Inspection",
+          "Leadership",
+          "Materials",
+          "Problem Solving",
+          "Public Safety",
+          "Public Speaking",
+          "Quality",
+          "Safety",
+          "Sales",
+          "Supervisory",
+          "Supervision",
+          "Technician"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,
@@ -296,10 +2302,94 @@
   },
   {
     "file": "teacher_12467531.pdf",
-    "extraction_time": 0.023684978485107422,
-    "hybrid_fields": {},
+    "extraction_time": 9.610151767730713,
+    "hybrid_fields": {
+      "experience": {
+        "value": [
+          {
+            "company": "Company Name",
+            "title": "Teacher",
+            "duration": "08/2014 to Current",
+            "responsibilities": [
+              "Teaches classes in accordance with requirements of approved courses of study at expected student progress expectations",
+              "Uses information about individual students' academic strengths, needs, and progress in planning",
+              "Designs activities to engage students in cognitively challenging work aligned to standards",
+              "Establishes classroom environment that is safe and supportive, risk-taking is encouraged, students feel free to contribute their ideas, and teacher and student interactions are respectful and polite to promote positive learning environment for all students"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Robotics and Design Instructor",
+            "duration": "08/2012 to 09/2014",
+            "responsibilities": [
+              "Provided clear informative lectures on working with Robotics kits, programming, and theory",
+              "Increased educational expertise and knowledge of design by participating in instructor-oriented workshops",
+              "Modified lessons and curriculum to accommodate diverse learners by using strategies such as peer-assisted learning and group work"
+            ],
+            "achievements": []
+          },
+          {
+            "company": "Company Name",
+            "title": "Executive Advisor",
+            "duration": "08/2015 to Current",
+            "responsibilities": [
+              "Portfolio management realizing 20-25% annually over 5 year period",
+              "Research and Analytics",
+              "Provide relocation services for client's and their families"
+            ],
+            "achievements": [
+              "Planned and launched large-scale events that boosted revenue by 15%",
+              "Implemented process improvements to automate office operations, including record tracking and mobile apps"
+            ]
+          }
+        ],
+        "confidence": 0.85,
+        "source": "llm"
+      },
+      "education": {
+        "value": [
+          {
+            "institution": "University of California - Los Angeles",
+            "degree": "M. Ed",
+            "field": "Teaching",
+            "year": "2016"
+          },
+          {
+            "institution": "The University of New Mexico",
+            "degree": "Bachelor of Arts",
+            "field": "Psychology",
+            "year": "2003"
+          }
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      },
+      "skills": {
+        "value": [
+          "Instructional Design",
+          "Teaching",
+          "Progress Monitoring",
+          "Course Development",
+          "Evernote",
+          "Slack",
+          "Social Media",
+          "Excel",
+          "Outlook",
+          "Adobe Photoshop",
+          "Management: Staff, Projects, Daily Scheduling",
+          "Financial Analysis",
+          "Security Trading",
+          "Portfolio Management",
+          "Liability Structuring",
+          "Research, Analysis, and Planning"
+        ],
+        "confidence": 0.8,
+        "source": "llm"
+      }
+    },
     "ner_field_count": 0,
-    "llm_field_count": 0,
+    "llm_field_count": 3,
     "ats_score": 26.25,
     "ats_max_possible": 40,
     "success": true,

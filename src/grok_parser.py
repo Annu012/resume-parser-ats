@@ -1,4 +1,4 @@
-"""Enhanced Resume Parser using xAI's Grok (via OpenAI-compatible API)"""
+"""Resume Parser using Groq's hosted inference API (OpenAI-compatible)"""
 
 import json
 import re
@@ -7,17 +7,7 @@ from langchain_core.prompts import PromptTemplate
 from pydantic import BaseModel, Field, ValidationError
 from typing import List, Optional
 
-from langchain_openai import ChatOpenAI
 
-class GroqResumeParser:
-    def __init__(self, api_key: str, model: str = "llama-3.3-70b-versatile"):
-        self.llm = ChatOpenAI(
-            api_key=api_key,
-            base_url="https://api.groq.com/openai/v1",
-            model=model,
-            temperature=0,
-            max_tokens=2000
-        )
 class ExperienceItem(BaseModel):
     company: str
     title: str
@@ -37,11 +27,11 @@ class ResumeData(BaseModel):
     certifications: List[str] = Field(default_factory=list)
 
 
-class GrokResumeParser:
-    def __init__(self, api_key: str, model: str = "grok-4.3"):
+class GroqResumeParser:
+    def __init__(self, api_key: str, model: str = "llama-3.3-70b-versatile"):
         self.llm = ChatOpenAI(
             api_key=api_key,
-            base_url="https://api.x.ai/v1",
+            base_url="https://api.groq.com/openai/v1",
             model=model,
             temperature=0,
             max_tokens=2000
@@ -87,11 +77,11 @@ IMPORTANT: Return ONLY the JSON, no other text."""
 # Test
 if __name__ == "__main__":
     import os
-    api_key = os.getenv("XAI_API_KEY")
+    api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
-        print("❌ XAI_API_KEY not set. In PowerShell: $env:XAI_API_KEY = \"your-key-here\"")
+        print("❌ GROQ_API_KEY not set. In PowerShell: $env:GROQ_API_KEY = \"your-key-here\"")
     else:
-        parser = GrokResumeParser(api_key)
+        parser = GroqResumeParser(api_key)
         test_resume = "JOHN DOE\njohn@email.com\nPython Developer with 5 years experience"
         result = parser.parse_resume(test_resume)
         if result["success"]:

@@ -1,37 +1,4 @@
-"""
-Compute REAL parsing accuracy by comparing your parser's output against
-hand-labeled ground truth.
 
-This is the piece that turns "92.5% accuracy" from a guess into a fact.
-
-SETUP
------
-1. Open ground_truth_template.csv (already pre-filled with your 24 resume
-   filenames from results/batch_inference_results.json).
-2. Open each PDF and manually fill in the true_* columns by hand. This is
-   tedious but it's the only way an accuracy number means anything — there's
-   no shortcut here.
-3. Save it as ground_truth.csv (don't overwrite the template).
-4. Run your parser on the same 24 resumes and save output as
-   results/parsed_output.json in this shape:
-
-    [
-      {
-        "file": "accountant_15906625.pdf",
-        "name": "...", "email": "...", "phone": "...",
-        "experience_years": 5, "education": "...", "skills": ["...", "..."]
-      },
-      ...
-    ]
-
-5. Run: python scripts/evaluate.py
-
-OUTPUT
-------
-Prints per-field accuracy and overall accuracy, and saves to
-results/evaluation_report.json — this file will then be REAL, unlike the
-one referenced in the old README that never existed.
-"""
 
 import csv
 import json

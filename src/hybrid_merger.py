@@ -1,48 +1,4 @@
-"""
-Hybrid merge logic for combining NER-based extraction (spaCy / your rule-based
-extractors) with LLM-based extraction (GPT-4 / Gemini / Grok) into one result.
 
-This is the piece that was missing: your NER extractors and LLM parsers run
-independently, but nothing combines them into a single "hybrid" answer.
-
-DESIGN
-------
-For each field (name, email, phone, experience, education, skills), each
-source (ner, llm) proposes a value + a confidence score. The merger picks
-a winner per field using simple, explainable rules — not a black box.
-
-You control confidence per source. If your extractors don't currently return
-confidence scores, start with the DEFAULT_SOURCE_CONFIDENCE below (rough
-priors) and refine them once you have real eval data from evaluate.py.
-
-INPUT FORMAT EXPECTED
-----------------------
-Each source's extraction should be normalized into this shape before merging:
-
-    {
-        "name":       {"value": "Anisa Shaikh", "confidence": 0.9},
-        "email":      {"value": "a@x.com",      "confidence": 0.95},
-        "phone":      {"value": "+91...",       "confidence": 0.8},
-        "experience": {"value": [...],          "confidence": 0.7},
-        "education":  {"value": [...],          "confidence": 0.75},
-        "skills":     {"value": [...],          "confidence": 0.6},
-    }
-
-If your extractors currently return raw values with no confidence, wrap them:
-    normalize_extraction(raw_dict, default_confidence=0.7)
-
-USAGE
------
-    from src.hybrid_merger import merge_extractions
-
-    ner_result = normalize_extraction(ner_extractor_output, default_confidence=0.65)
-    llm_result = normalize_extraction(llm_parser_output, default_confidence=0.85)
-
-    hybrid = merge_extractions(ner_result, llm_result)
-    # hybrid["name"]["value"] -> the winning value
-    # hybrid["name"]["source"] -> "ner" or "llm" or "agreement"
-    # hybrid["name"]["confidence"] -> the confidence of the winning value
-"""
 
 from typing import Any
 

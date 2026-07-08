@@ -1,18 +1,4 @@
-"""
-FastAPI backend exposing the resume parser as a real REST API.
 
-Run with: uvicorn api:app --reload
-Then visit http://127.0.0.1:8000/docs for interactive API docs.
-
-Requires GOOGLE_API_KEY set in the environment for the LLM side of /parse
-to work — without it, /parse still runs but returns NER-only results
-(name/email/phone via contact_extractor.py; experience/education/skills
-will be empty, since only Gemini currently supplies those).
-
-/match-jobs is NOT wired yet — job_matcher.py hasn't been reviewed, so
-rather than guess at its interface, this endpoint returns 501 until you
-share that file too.
-"""
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from pydantic import BaseModel

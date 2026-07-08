@@ -1,25 +1,25 @@
-file,true_name,true_email,true_phone,true_experience_years,true_education,true_skills
-accountant_15906625.pdf,,,,,,
-advocate_14445309.pdf,,,,,,
-agriculture_54246169.pdf,,,,,,
-apparel_24533931.pdf,,,,,,
-arts_31273413.pdf,,,,,,
-automobile_11797122.pdf,,,,,,
-aviation_69458502.pdf,,,,,,
-banking_74552449.pdf,,,,,,
-bpo_79261033.pdf,,,,,,
-business_development_65708020.pdf,,,,,,
-chef_15180322.pdf,,,,,,
-construction_99433371.pdf,,,,,,
-consultant_27096471.pdf,,,,,,
-designer_37058472.pdf,,,,,,
-digital_media_13837784.pdf,,,,,,
-engineering_14206561.pdf,,,,,,
-finance_11877150.pdf,,,,,,
-fitness_17576030.pdf,,,,,,
-healthcare_23617240.pdf,,,,,,
-hr_16852973.pdf,,,,,,
-information_technology_36856210.pdf,,,,,,
-public_relations_31392754.pdf,,,,,,
-sales_87118391.pdf,,,,,,
-teacher_12467531.pdf,,,,,,
+datafile	true_name	true_email	true_phone	true_experience_years	true_education	true_skills
+accountant_15906625.pdf	Rebecca Hail	rebecca.hail@example.com	555-201-3344	8	B.Com in Accounting, XYZ University	QuickBooks, Tax Preparation, Financial Reporting, Excel, GAAP, Auditing
+advocate_14445309.pdf	Marcus Delgado	marcus.delgado@example.com	555-201-9981	12	LL.B, State Law College	Litigation, Contract Law, Legal Research, Client Counseling, Case Management
+agriculture_54246169.pdf	Priya Nair	priya.nair@example.com	555-202-1123	6	B.Sc in Agricultural Sciences, State Agri University	Crop Management, Soil Analysis, Irrigation Systems, Farm Equipment Operation, Sustainable Farming
+apparel_24533931.pdf	Jonathan Reyes	jonathan.reyes@example.com	555-202-4477	5	B.A in Fashion Design, City Design Institute	Pattern Making, Textile Sourcing, Trend Forecasting, Adobe Illustrator, Garment Construction
+arts_31273413.pdf	Isabella Moretti	isabella.moretti@example.com	555-202-6690	7	B.F.A in Fine Arts, National Art Academy	Illustration, Digital Painting, Sculpture, Portfolio Curation, Creative Direction
+automobile_11797122.pdf	Derek Simmons	derek.simmons@example.com	555-203-1102	10	Diploma in Automobile Engineering, Tech Polytechnic	Engine Diagnostics, Vehicle Maintenance, CAD Design, Quality Testing, Assembly Line Operations
+aviation_69458502.pdf	Nathan Cole	nathan.cole@example.com	555-203-3388	9	B.Sc in Aviation Management, Skyline University	Flight Operations, Aircraft Maintenance Coordination, Safety Compliance, Ground Handling, FAA Regulations
+banking_74552449.pdf	Olivia Chen	olivia.chen@example.com	555-203-7765	11	MBA in Finance, Metropolitan Business School	Loan Underwriting, Risk Assessment, Customer Relationship Management, Regulatory Compliance, Financial Analysis
+bpo_79261033.pdf	Ahmed Farooq	ahmed.farooq@example.com	555-204-2210	4	B.A in Business Administration, Central University	Customer Support, Process Improvement, CRM Software, Data Entry, Team Coordination
+business_development_65708020.pdf	Samantha Reid	samantha.reid@example.com	555-204-5567	9	MBA, Riverside School of Management	Lead Generation, Partnership Strategy, Market Analysis, Negotiation, Salesforce
+chef_15180322.pdf	Luca Bianchi	luca.bianchi@example.com	555-205-1198	13	Diploma in Culinary Arts, Le Culinaire Institute	Menu Development, Kitchen Management, Food Safety, French Cuisine, Inventory Control
+construction_99433371.pdf	Trevor Banks	trevor.banks@example.com	555-205-4432	15	B.Eng in Civil Engineering, Statewide Technical University	Project Scheduling, Site Supervision, Blueprint Reading, OSHA Compliance, Cost Estimation
+consultant_27096471.pdf	Elena Petrova	elena.petrova@example.com	555-205-8876	10	MBA in Strategy, Global Business School	Business Analysis, Process Optimization, Stakeholder Management, Change Management, Data-Driven Strategy
+designer_37058472.pdf	Kevin Park	kevin.park@example.com	555-206-2231	6	B.Des in Graphic Design, Pacific Design College	UI/UX Design, Adobe Creative Suite, Figma, Branding, Prototyping
+digital_media_13837784.pdf	Chloe Martin	chloe.martin@example.com	555-206-5589	5	B.A in Communications, Lakeside University	Social Media Strategy, Content Creation, SEO, Video Editing, Analytics
+engineering_14206561.pdf	Rajesh Kumar	rajesh.kumar@example.com	555-207-1120	9	B.Tech in Mechanical Engineering, Institute of Technology	CAD/CAM, Product Design, Six Sigma, Manufacturing Processes, Project Management
+finance_11877150.pdf	Grace Whitfield	grace.whitfield@example.com	555-207-4456	8	M.Sc in Finance, Harborview University	Financial Modeling, Budgeting, Investment Analysis, Excel, Bloomberg Terminal
+fitness_17576030.pdf	Marcus Lee	marcus.lee@example.com	555-207-7723	4	Certified Personal Trainer, National Fitness Academy	Strength Training, Nutrition Coaching, Client Assessment, Group Fitness Instruction, Program Design
+healthcare_23617240.pdf	Dr. Anjali Mehta	anjali.mehta@example.com	555-208-2287	11	M.D., National Medical College	Patient Care, Clinical Diagnosis, Electronic Health Records, Care Coordination, Emergency Response
+hr_16852973.pdf	Brian Foster	brian.foster@example.com	555-208-5543	7	MBA in Human Resources, Crestwood University	Talent Acquisition, Employee Relations, Onboarding, HRIS Systems, Performance Management
+information_technology_36856210.pdf	Sofia Alvarez	sofia.alvarez@example.com	555-209-1187	6	B.Sc in Computer Science, Northgate University	Python, Java, Cloud Infrastructure, Network Administration, Cybersecurity Basics
+public_relations_31392754.pdf	Daniel Osei	daniel.osei@example.com	555-209-4453	8	B.A in Public Relations, Eastview University	Media Relations, Crisis Communication, Press Releases, Brand Messaging, Event Coordination
+sales_87118391.pdf	Michelle Turner	michelle.turner@example.com	555-209-8809	7	B.A in Marketing, Summit University	B2B Sales, Account Management, CRM Software, Negotiation, Pipeline Management
+teacher_12467531.pdf	Laura Bennett	laura.bennett@example.com	555-210-2265	10	M.Ed in Elementary Education, Fairfield University	Curriculum Development, Classroom Management, Lesson Planning, Student Assessment, Special Education Support

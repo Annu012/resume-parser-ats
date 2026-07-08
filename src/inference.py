@@ -1,5 +1,3 @@
-
-
 import time
 import glob
 import json
@@ -8,24 +6,24 @@ from pathlib import Path
 
 from src.resume_parser import ResumeParser
 from src.contact_extractor import extract_contact_info
-from src.gemini_parser import GeminiResumeParser
+from src.grok_parser import GroqResumeParser
 from src.ats_scorer import ATSScorer
 from src.hybrid_merger import normalize_extraction, merge_extractions
 
 
 class ResumeParsingPipeline:
-    def __init__(self, gemini_api_key: str | None = None):
+    def __init__(self, grok_api_key: str | None = None):
         self.parser = ResumeParser()
         self.scorer = ATSScorer()
 
-        gemini_api_key = gemini_api_key or os.getenv("GOOGLE_API_KEY")
-        if gemini_api_key:
-            self.llm_parser = GeminiResumeParser(gemini_api_key)
+        grok_api_key = grok_api_key or os.getenv("GROQ_API_KEY")
+        if grok_api_key:
+            self.llm_parser = GroqResumeParser(grok_api_key)
         else:
             self.llm_parser = None
             print(
-                "WARNING: GOOGLE_API_KEY not set — pipeline will run NER-only. "
-                "Set GOOGLE_API_KEY to enable the LLM side and make this "
+                "WARNING: GROQ_API_KEY not set — pipeline will run NER-only. "
+                "Set GROQ_API_KEY to enable the LLM side and make this "
                 "genuinely hybrid."
             )
 
@@ -37,8 +35,8 @@ class ResumeParsingPipeline:
         return normalize_extraction(contact, source="ner")
 
     def _llm_side(self, text: str) -> dict:
-        """LLM-side extraction via Gemini. Returns {} if no API key or if
-        Gemini's response failed validation (see gemini_parser.py)."""
+        """LLM-side extraction via Groq. Returns {} if no API key or if
+        Groq's response failed validation (see grok_parser.py)."""
         if self.llm_parser is None:
             return {}
         result = self.llm_parser.parse_resume(text)
@@ -120,7 +118,7 @@ if __name__ == "__main__":
         print(f"Avg extraction time: {avg_time:.2f}s")
         if avg_score is not None:
             print(f"Avg ATS score: {avg_score:.1f}")
-        print(f"Resumes with LLM data (Gemini succeeded): {llm_hits}/{len(successes)}")
+        print(f"Resumes with LLM data (Groq succeeded): {llm_hits}/{len(successes)}")
 
     if failures:
         print("\nFailed files:")
