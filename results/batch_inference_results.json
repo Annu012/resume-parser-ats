@@ -1,217 +1,307 @@
 [
   {
     "file": "accountant_15906625.pdf",
-    "extraction_time": 0.16280865669250488,
-    "entity_types_found": 8,
-    "entities_total": 76,
+    "extraction_time": 2.7116174697875977,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "advocate_14445309.pdf",
-    "extraction_time": 0.13638758659362793,
-    "entity_types_found": 10,
-    "entities_total": 81,
+    "extraction_time": 0.032713890075683594,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "agriculture_54246169.pdf",
-    "extraction_time": 0.16276216506958008,
-    "entity_types_found": 11,
-    "entities_total": 88,
+    "extraction_time": 0.03194284439086914,
+    "hybrid_fields": {
+      "name": {
+        "value": "Computer Ce",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "apparel_24533931.pdf",
-    "extraction_time": 0.04823875427246094,
-    "entity_types_found": 3,
-    "entities_total": 23,
+    "extraction_time": 0.020705461502075195,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 36.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "arts_31273413.pdf",
-    "extraction_time": 0.12173938751220703,
-    "entity_types_found": 11,
-    "entities_total": 47,
+    "extraction_time": 0.05658245086669922,
+    "hybrid_fields": {
+      "name": {
+        "value": "Summary Creative",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "automobile_11797122.pdf",
-    "extraction_time": 0.17286062240600586,
-    "entity_types_found": 6,
-    "entities_total": 41,
+    "extraction_time": 0.03506112098693848,
+    "hybrid_fields": {
+      "name": {
+        "value": "Summary Dedicated",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "aviation_69458502.pdf",
-    "extraction_time": 0.14226341247558594,
-    "entity_types_found": 11,
-    "entities_total": 65,
+    "extraction_time": 0.03353619575500488,
+    "hybrid_fields": {
+      "phone": {
+        "value": "+1 7526269604",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 30.0,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "banking_74552449.pdf",
-    "extraction_time": 0.06058645248413086,
-    "entity_types_found": 7,
-    "entities_total": 32,
+    "extraction_time": 0.03168940544128418,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 36.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "bpo_79261033.pdf",
-    "extraction_time": 0.09943675994873047,
-    "entity_types_found": 9,
-    "entities_total": 83,
+    "extraction_time": 0.019906044006347656,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "business_development_65708020.pdf",
-    "extraction_time": 0.1511082649230957,
-    "entity_types_found": 8,
-    "entities_total": 68,
+    "extraction_time": 0.028199195861816406,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "chef_15180322.pdf",
-    "extraction_time": 0.17201828956604004,
-    "entity_types_found": 5,
-    "entities_total": 44,
+    "extraction_time": 0.024248838424682617,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 30.0,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "construction_99433371.pdf",
-    "extraction_time": 0.035181283950805664,
-    "entity_types_found": 5,
-    "entities_total": 30,
+    "extraction_time": 0.014569282531738281,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 31.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "consultant_27096471.pdf",
-    "extraction_time": 0.11705541610717773,
-    "entity_types_found": 7,
-    "entities_total": 48,
+    "extraction_time": 0.025354623794555664,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "designer_37058472.pdf",
-    "extraction_time": 0.09288883209228516,
-    "entity_types_found": 9,
-    "entities_total": 34,
+    "extraction_time": 0.016094446182250977,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 35.0,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "digital_media_13837784.pdf",
-    "extraction_time": 0.06016945838928223,
-    "entity_types_found": 7,
-    "entities_total": 37,
+    "extraction_time": 0.02230095863342285,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 36.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "engineering_14206561.pdf",
-    "extraction_time": 0.07964730262756348,
-    "entity_types_found": 6,
-    "entities_total": 37,
+    "extraction_time": 0.022587299346923828,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 40.0,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "finance_11877150.pdf",
-    "extraction_time": 0.07849383354187012,
-    "entity_types_found": 10,
-    "entities_total": 48,
+    "extraction_time": 0.02089667320251465,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 36.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "fitness_17576030.pdf",
-    "extraction_time": 0.0636594295501709,
-    "entity_types_found": 7,
-    "entities_total": 51,
+    "extraction_time": 0.022182226181030273,
+    "hybrid_fields": {
+      "name": {
+        "value": "mem",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 36.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "healthcare_23617240.pdf",
-    "extraction_time": 0.18923687934875488,
-    "entity_types_found": 7,
-    "entities_total": 116,
+    "extraction_time": 0.02588820457458496,
+    "hybrid_fields": {
+      "name": {
+        "value": "Profile Cynthia",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "hr_16852973.pdf",
-    "extraction_time": 0.10586237907409668,
-    "entity_types_found": 7,
-    "entities_total": 48,
+    "extraction_time": 0.02322864532470703,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "information_technology_36856210.pdf",
-    "extraction_time": 0.1005096435546875,
-    "entity_types_found": 8,
-    "entities_total": 45,
+    "extraction_time": 0.027936935424804688,
+    "hybrid_fields": {
+      "name": {
+        "value": "Excels",
+        "confidence": 0.85,
+        "source": "ner"
+      }
+    },
+    "ner_field_count": 1,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "public_relations_31392754.pdf",
-    "extraction_time": 0.12603306770324707,
-    "entity_types_found": 8,
-    "entities_total": 76,
+    "extraction_time": 0.02230668067932129,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 30.0,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "sales_87118391.pdf",
-    "extraction_time": 0.09839487075805664,
-    "entity_types_found": 5,
-    "entities_total": 24,
+    "extraction_time": 0.022961139678955078,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   },
   {
     "file": "teacher_12467531.pdf",
-    "extraction_time": 0.12515997886657715,
-    "entity_types_found": 7,
-    "entities_total": 67,
+    "extraction_time": 0.023684978485107422,
+    "hybrid_fields": {},
+    "ner_field_count": 0,
+    "llm_field_count": 0,
     "ats_score": 26.25,
+    "ats_max_possible": 40,
     "success": true,
     "error": null
   }
