@@ -232,10 +232,10 @@ MIT License - see LICENSE file for details
 
 ## 👨‍💻 Author
 
-Your Name
+Anisa Shaikh
 - GitHub: @Annu012(https://github.com/Annu012)
 - LinkedIn: www.linkedin.com/in/anisa-shaikh11
-- Email: your.email@example.com
+- Email: anisa.shaikh012@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -247,7 +247,7 @@ Your Name
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
-- Contact: your.email@example.com
+- Contact: anisa.shaikh012@gmail.com
 - Check documentation in `/docs` folder
 
 ## 📊 Stats
